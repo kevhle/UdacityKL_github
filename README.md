@@ -5,7 +5,8 @@
 
 ### Project Title
    Explore US Bikeshare Data
-   You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. 
+   
+   In this project, you will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. 
 
 ### Description
    This project uses data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns between three large cities: Chicago, New York City, and Washington, DC.
@@ -30,6 +31,7 @@
 
 ### Files used
    This project uses Bikeshare data from Chicago, New York City, and Washington, DC. The data is store in .CSV files.
+   
    The data files are chicago.csv, new_york_city.csv, and washington.csv
 
 ### Credits
