@@ -10,7 +10,6 @@ This project utilizes reference data and codes from Udacity and Udacity GPT
    (Accessed: 12 June 2023).
    
 -------------------------------------------------------------------------"""
-
 import time
 import pandas as pd
 import numpy as np
@@ -18,7 +17,6 @@ import numpy as np
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
-
 # list all supported cities, months, and days
 cities = ['chicago', 'new york city', 'washington']
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
@@ -74,7 +72,6 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
-
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -114,7 +111,6 @@ def load_data(city, month, day):
 
     return df
 
-
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -149,7 +145,6 @@ def time_stats(df):
     print("\nThis calculation took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -174,7 +169,6 @@ def station_stats(df):
 
     print("\nThis calculation took %s seconds." % (time.time() - start_time))
     print('-' * 40)
-
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -204,7 +198,6 @@ def trip_duration_stats(df):
 
     print("\nThis calculation took %s seconds." % (time.time() - start_time))
     print('-' * 40)
-
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
@@ -248,7 +241,6 @@ def user_stats(df):
     print("\nThis calculation took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
-
 def list_data(df):
     """Prompt user if they want to see the raw data. If the answer is 'Yes', then it will print 5 rows of data at a time until the answer 'No' is received"""
     start_index = 0
@@ -265,7 +257,6 @@ def list_data(df):
         else:
             print('Invalid input! Please enter Y or N')
 
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -280,7 +271,6 @@ def main():
         restart = input('\nWould you like to restart (Y/N)?\n')
         if restart.lower() != 'y':
             break
-
 
 if __name__ == "__main__":
     main()
