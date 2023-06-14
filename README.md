@@ -31,8 +31,8 @@
 
 ### Files used
    This project uses Bikeshare data from Chicago, New York City, and Washington, DC. The data is store in .CSV files.
-   
-   The data files are chicago.csv, new_york_city.csv, and washington.csv
+
+   The data files are chicago.csv, new_york_city.csv, and washington.csv. These files are only available in local database. 
 
 ### Credits
    This project utilizes reference data and codes from Udacity and Udacity GPT
