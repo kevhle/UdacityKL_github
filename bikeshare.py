@@ -1,14 +1,13 @@
-#Update June 12, 2023
+#Update June 14, 2023
 
 """This project uses data provided by Motivate, a bike share system provider for many major cities in the United States,
 to uncover bike share usage patterns between three large cities: Chicago, New York City, and Washington, DC.
 
-REFERENCES
+REFERENCES:
 This project utilizes reference data and codes from Udacity and Udacity GPT
 1. Explore US Bikeshare Data. Udacity.com. 
    Available at: https://learn.udacity.com/nanodegrees/nd104/parts/cd0024/lessons/ls1727/concepts/7845b970-2e46-4901-aafa-ba44702fd8fe 
    (Accessed: 12 June 2023).
-   
 -------------------------------------------------------------------------"""
 import time
 import pandas as pd
